@@ -4,6 +4,7 @@ let {num,text,text2} = require("./arrayintro");
 let {age,age1,time,x,y,x1,x2,zonetext} = require('./condition');
 let timedemo= require("./settimeout");
 let {resolve,reject}= require("./promise");
+let {xi,forEachnum,mapnum,newarr,reducearr,reversearr,everyarr,somearr,includevalue,value1}= require("./arrfunction");
 
 // JSIntro
 StudData();
@@ -100,3 +101,28 @@ resolve();
 
 reject();
 
+// arrfunction
+// for
+console.log (xi);
+
+// forEach
+console.log(forEachnum);
+
+// map
+console.log(mapnum);
+
+// newarr
+console.log(newarr);
+
+// reducearr
+console.log(reducearr);
+
+console.log(reversearr);
+
+console.log(everyarr);
+
+console.log(somearr);
+
+console.log(includevalue);
+
+console.log(value1);
